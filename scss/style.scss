@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+// $primary-color : #FFB400;
+$primary-color : #003cff;
+$secondary-color : #767676;
+$bg-right: #FAFAFA;
+$bg-secondary: #F0F0F6;
+
+.btn {
+    background-color: $primary-color;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+*{
+    font-family: 'Inter', sans-serif;
+}
+.left-menu{
+
+    .burger{
+        i{
+            color: $primary-color;
+            font-size: 1.8rem;
+        }
+        
+    }
+    .profile{
+        img{
+            background-color: #f5f5f5 ;
+        }
+        p{
+            color: $secondary-color;
+        }
+    }
+    .social{
+        i{
+            width: 35px;
+            height: 35px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            // padding: 10px;
+            color: #fff;
+            border-radius: 50%;
+            font-size: 1rem;
+            background-color: $primary-color;
+        }
+    }
+    .addresses{
+        .key{
+            color: #fff;
+            background-color: $primary-color;
+            padding: 1px 6px;
+        }
+    }
+    .languages, .skills{
+        .language, .skill{
+            p{
+                color: $secondary-color;
+                background-color: #red;
+            }
+            .progress{
+                // border: $primary-color 1px solid;
+                background-color:#f5F5F5;
+                border-radius: 20px;
+                height: 4px;
+                width: 100%;
+                position: relative;
+                .value{
+                    background-color: $primary-color;
+                    height: 3px;
+                    width: 75%;
+                }
+            }
+        }
+    }
+
+    .extra-skills{
+        .extra-skill{
+            p{
+                color: $secondary-color;
+            }
+            i{
+                // font-size: 1rem;
+                color: $primary-color;
+            }
+        }
+    }
+
+}
+
+.right-menu{
+    background-color: $bg-right;
+    .night-mode{
+        margin-bottom: 185px;
+        i{
+            font-size: 1.3rem;
+            padding: 2px;
+            border-radius: 50%;
+            color: #fff;
+            background-color: black;
+        }
+        
+    }
+    nav{
+        li{
+            i{
+                color: rgb(83, 83, 83);
+                font-size: 1.1rem;
+                width: 50px;
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                background-color: #F0F0F6;
+            }
+            .active{
+                color: white;
+                background-color: $primary-color;
+            }
+        }
+    }
+}
+
+.my-services{
+    background-color: $bg-secondary;
+    .carts{
+        .cart{
+
+        }
+    }
+}
