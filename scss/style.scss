@@ -6,6 +6,9 @@ $secondary-color : #767676;
 $bg-right: #FAFAFA;
 $bg-secondary: #F0F0F6;
 
+hr{
+    margin: 25px 0;
+}
 .btn {
     background-color: $primary-color;
     color: #fff;
@@ -39,7 +42,6 @@ $bg-secondary: #F0F0F6;
             display: flex;
             justify-content: center;
             align-items: center;
-            // padding: 10px;
             color: #fff;
             border-radius: 50%;
             font-size: 1rem;
@@ -123,11 +125,22 @@ $bg-secondary: #F0F0F6;
     }
 }
 
-.my-services{
-    background-color: $bg-secondary;
-    .carts{
-        .cart{
+// .my-services{
+//     background-color: $bg-secondary;
+//     .carts{
+//         .cart{
 
+//         }
+//     }
+// }
+
+.education{
+    .head{
+
+        p{
+            color: #fff;
+            padding: 1px 5px;
+            background-color: $primary-color;
         }
     }
 }
