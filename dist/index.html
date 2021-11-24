@@ -12,13 +12,13 @@
     <script src="main.js" defer></script>
     <title>Baye Dame</title>
 </head>
-<body>
+<body class="lg:text-xl">
 
 
 <!-- =============================== Menu =============================== -->
 
 <div class="flex justify-between">
-    <div class="left-menu p-6">
+    <div class="left-menu w-full lg:absolute overflow-scroll bg-white lg:w-3/12 p-6">
         <div class="burger">
             <i class="fa fa-hamburger" aria-hidden="true"></i>
         </div>
@@ -161,7 +161,24 @@
 
     </div>
 
-    <div class="right-menu px-8 text-center">
+    <div class="main-menu hidden lg:flex px-28 pt-10 lg:justify-between lg:items-center">
+        <div class="left-col lg:w-8/12 lg:space-y-5">
+            <h1 class="text-6xl font-extrabold">
+                I'm Dame LEYE <br> <span>MERN Stack</span> Developer
+            </h1>
+            <p class="text-3xl">
+                Hi everyone, I am a M.E.R.N Stack developer. 
+                I recently try my best to improve my skills on web front-end. My favorite thing is to get new skills. 
+            </p>
+            <a class="btn text-4xl" href="#">HIRE ME</a>
+        </div>
+        <div class="mr-10">
+            <img src="../assets/images/myimage.png" alt="mypicture">
+        </div>
+        <!-- <img src="../assets/images/main-menu-bg.png" alt=""> -->
+    </div>
+
+    <div class="right-menu lg:min-h-full lg:fixed right-0 px-8 text-center">
         <div class="night-mode my-10">
             <i class="fa fa-moon" aria-hidden="true"></i>
         </div>
@@ -202,272 +219,308 @@
     </div>
 </div>
 
-<!-- =============================== my services =============================== -->
-<div class="my-services p-8 text-center">
-    <h2 class="text-4xl font-bold my-5">My Services</h2>
-    <p>
-        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
-        Velitofficia consequat duis enim velit mollit.
-        lorem ipsum
-    </p>
-    <div class="carts space-y-20">
-        <div class="cart-item p-10 bg-white m-5 bg-white-100">
-            <img class="mx-auto mb-4" src="../assets/images/Icons-coding.png" alt="coding">
-            <h3 class="font-medium text-2xl my-4">Web Development</h3>
-            <p class="text-xl">Blog, E-Commerce</p>
-        </div>
-        <div class="cart-item p-10 bg-white m-5 bg-white-100">
-            <img class="mx-auto mb-4" src="../assets/images/Icons-coding.png" alt="coding">
-            <h3 class="font-medium text-2xl my-4">Web Development</h3>
-            <p class="text-xl">Blog, E-Commerce</p>
-        </div>
-        <div class="cart-item p-10 bg-white m-5 bg-white-100">
-            <img class="mx-auto mb-4" src="../assets/images/Icons-coding.png" alt="coding">
-            <h3 class="font-medium text-2xl my-4">Web Development</h3>
-            <p class="text-xl">Blog, E-Commerce</p>
-        </div>
-        <div class="cart-item p-10 bg-white m-5 bg-white-100">
-            <img class="mx-auto mb-4" src="../assets/images/Icons-coding.png" alt="coding">
-            <h3 class="font-medium text-2xl my-4">Web Development</h3>
-            <p class="text-xl">Blog, E-Commerce</p>
-        </div>
-    </div>
-
-</div>
-
-<!-- =============================== Education =============================== -->
-<div class="education">
-    <div class="education-head p-8">
-        <h2 class="text-4xl font-bold my-5 text-center">Education</h2>
-        <p class="text-center">
+<main class="lg:w-8/12">
+    <!-- =============================== my services =============================== -->
+    <div class="my-services p-8 text-center space-y-5 mx-auto">
+        <h2 class="text-4xl font-bold my-5">My Services</h2>
+        <p>
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
             Velitofficia consequat duis enim velit mollit.
             lorem ipsum
         </p>
+        <div class="carts justify-center flex flex-wrap lg:justify-between">
+            <div class="cart-item p-10 bg-white bg-white-100">
+                <img class="mx-auto mb-4" src="../assets/images/Icons-coding.png" alt="coding">
+                <h3 class="font-medium text-2xl my-4">Web Development</h3>
+                <p class="text-xl">Blog, E-Commerce</p>
+            </div>
+            <div class="cart-item p-10 bg-white bg-white-100">
+                <img class="mx-auto mb-4" src="../assets/images/Icons-coding.png" alt="coding">
+                <h3 class="font-medium text-2xl my-4">Web Development</h3>
+                <p class="text-xl">Blog, E-Commerce</p>
+            </div>
+            <div class="cart-item p-10 bg-white bg-white-100">
+                <img class="mx-auto mb-4" src="../assets/images/Icons-coding.png" alt="coding">
+                <h3 class="font-medium text-2xl my-4">Web Development</h3>
+                <p class="text-xl">Blog, E-Commerce</p>
+            </div>
+            <div class="cart-item p-10 bg-white bg-white-100">
+                <img class="mx-auto mb-4" src="../assets/images/Icons-coding.png" alt="coding">
+                <h3 class="font-medium text-2xl my-4">Web Development</h3>
+                <p class="text-xl">Blog, E-Commerce</p>
+            </div>
+            <div class="cart-item p-10 bg-white bg-white-100">
+                <img class="mx-auto mb-4" src="../assets/images/Icons-coding.png" alt="coding">
+                <h3 class="font-medium text-2xl my-4">Web Development</h3>
+                <p class="text-xl">Blog, E-Commerce</p>
+            </div>
+            <div class="cart-item p-10 bg-white bg-white-100">
+                <img class="mx-auto mb-4" src="../assets/images/Icons-coding.png" alt="coding">
+                <h3 class="font-medium text-2xl my-4">Web Development</h3>
+                <p class="text-xl">Blog, E-Commerce</p>
+            </div>
+        </div>
+
     </div>
 
-    <div class="education-body p-8">
-        <div class="education-item">
-            <div class="head">
-                <h3 class="font-medium text-2xl my-4">Bakeli School Of Tech</h3>
-                <div class="flex space-x-5 items-center">
-                    <h4>Student</h4>
-                    <p>Mar 2021 - May 2021</p>
-                </div>
-                <h3 class="font-medium text-2xl my-4">Certificate Of Web Training</h3>
-            </div>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing
-                elit. Amet dapibus nibh ut f aucibus nunc, egestas
-                id amet porttitor. Pulvinar q uisque sed amet, nulla
-                nunc. E leifend sodales posuere f usce t empus
-                etiam et pellentesque. Molestie r isus enim neque
-                eget dui.
+    <!-- =============================== Education =============================== -->
+    <div class="education lg:w-8/12v mx-auto">
+        <div class="education-head p-8">
+            <h2 class="text-4xl font-bold my-5 text-center">Education</h2>
+            <p class="text-center">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+                Velitofficia consequat duis enim velit mollit.
+                lorem ipsum
             </p>
         </div>
-        <hr>
 
-        <div class="education-item">
-            <div class="head">
-                <h3 class="font-medium text-2xl my-4">University Cheikh Anta Diop</h3>
-                <div class="flex space-x-5 items-center">
-                    <h4>Student</h4>
-                    <p>Mar 2021 - May 2021</p>
+        <div class="education-body p-8">
+            <div class="education-item lg:space-x-20 lg:flex lg:justify-between">
+                <div class="head lg:w-7/12">
+                    <h3 class="font-medium text-2xl my-4">University Cheikh Anta Diop</h3>
+                    <div class="flex space-x-5 items-center lg:justify-between">
+                        <h4>Junior Dev</h4>
+                        <p>Mar 2021 - May 2021</p>
+                    </div>
+                    
                 </div>
-                <h3 class="font-medium text-2xl my-4">Certificate Of Web Training</h3>
+                <div>
+                    <h3 class="font-medium text-2xl my-4">Certificate Of Web Training</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Amet dapibus nibh ut f aucibus nunc, egestas
+                        id amet porttitor. Pulvinar q uisque sed amet, nulla
+                        nunc. E leifend sodales posuere f usce t empus
+                        etiam et pellentesque. Molestie r isus enim neque
+                        eget dui.
+                    </p>
+                </div>
             </div>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing
-                elit. Amet dapibus nibh ut f aucibus nunc, egestas
-                id amet porttitor. Pulvinar q uisque sed amet, nulla
-                nunc. E leifend sodales posuere f usce t empus
-                etiam et pellentesque. Molestie r isus enim neque
-                eget dui.
+            <hr>
+
+            <div class="education-item lg:space-x-20 lg:flex lg:justify-between">
+                <div class="head lg:w-7/12">
+                    <h3 class="font-medium text-2xl my-4">Bakeli School of Tech</h3>
+                    <div class="flex space-x-5 items-center lg:justify-between">
+                        <h4>Cloud Architect</h4>
+                        <p>Mar 2021 - May 2021</p>
+                    </div>
+                    
+                </div>
+                <div>
+                    <h3 class="font-medium text-2xl my-4">Certificate Of Web Training</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Amet dapibus nibh ut f aucibus nunc, egestas
+                        id amet porttitor. Pulvinar q uisque sed amet, nulla
+                        nunc. E leifend sodales posuere f usce t empus
+                        etiam et pellentesque. Molestie r isus enim neque
+                        eget dui.
+                    </p>
+                </div>
+            </div>
+            <hr>
+
+            <div class="education-item lg:space-x-20 lg:flex lg:justify-between">
+                <div class="head lg:w-7/12">
+                    <h3 class="font-medium text-2xl my-4">Simplon Developer Website</h3>
+                    <div class="flex space-x-5 items-center lg:justify-between">
+                        <h4>Senior Dev</h4>
+                        <p>Mar 2021 - May 2021</p>
+                    </div>
+                    
+                </div>
+                <div>
+                    <h3 class="font-medium text-2xl my-4">Certificate Of Web Training</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Amet dapibus nibh ut f aucibus nunc, egestas
+                        id amet porttitor. Pulvinar q uisque sed amet, nulla
+                        nunc. E leifend sodales posuere f usce t empus
+                        etiam et pellentesque. Molestie r isus enim neque
+                        eget dui.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =============================== Expérience =============================== -->
+    <div class="experience lg:w-8/12v mx-auto">
+        <div class="experience-head p-8">
+            <h2 class="text-4xl font-bold my-5 text-center">Experience</h2>
+            <p class="text-center">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+                Velitofficia consequat duis enim velit mollit.
+                lorem ipsum
             </p>
         </div>
-        <hr>
 
-        <div class="education-item">
-            <div class="head">
-                <h3 class="font-medium text-2xl my-4">Simplon Developer Website</h3>
-                <div class="flex space-x-5 items-center">
-                    <h4>Student</h4>
-                    <p>Mar 2021 - May 2021</p>
+        <div class="experience-body p-8">
+            <div class="experience-item lg:space-x-20 lg:flex lg:justify-between">
+                <div class="head lg:w-7/12">
+                    <h3 class="font-medium text-2xl my-4">Volkeno / Senior</h3>
+                    <div class="flex space-x-5 items-center lg:justify-between">
+                        <h4>Junior Dev</h4>
+                        <p>Mar 2021 - May 2021</p>
+                    </div>
+                    
                 </div>
-                <h3 class="font-medium text-2xl my-4">Certificate Of Web Training</h3>
-            </div>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing
-                elit. Amet dapibus nibh ut f aucibus nunc, egestas
-                id amet porttitor. Pulvinar q uisque sed amet, nulla
-                nunc. E leifend sodales posuere f usce t empus
-                etiam et pellentesque. Molestie r isus enim neque
-                eget dui.
-            </p>
-        </div>
-    </div>
-</div>
-
-
-<!-- =============================== Expérience =============================== -->
-<div class="experience">
-    <div class="experience-head p-8">
-        <h2 class="text-4xl font-bold my-5 text-center">Experience</h2>
-        <p class="text-center">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
-            Velitofficia consequat duis enim velit mollit.
-            lorem ipsum
-        </p>
-    </div>
-
-    <div class="experience-body p-8">
-        <div class="education-item">
-            <div class="head">
-            <h3 class="font-medium text-2xl my-4">Microsoft Coorporation</h3>
-                <div class="flex space-x-5 items-center">
-                    <h4>Senior Developer</h4>
-                    <p>Mar 2021 - May 2021</p>
+                <div>
+                    <h3 class="font-medium text-2xl my-4">Certificate Of Web Training</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Amet dapibus nibh ut f aucibus nunc, egestas
+                        id amet porttitor. Pulvinar q uisque sed amet, nulla
+                        nunc. E leifend sodales posuere f usce t empus
+                        etiam et pellentesque. Molestie r isus enim neque
+                        eget dui.
+                    </p>
                 </div>
-                <h3 class="font-medium text-2xl my-4">Certificate Of Web Training</h3>
             </div>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing
-                elit. Amet dapibus nibh ut f aucibus nunc, egestas
-                id amet porttitor. Pulvinar q uisque sed amet, nulla
-                nunc. E leifend sodales posuere f usce t empus
-                etiam et pellentesque. Molestie r isus enim neque
-                eget dui.
-            </p>
-        </div>
-        <hr>
+            <hr>
 
-        <div class="experience-item">
-            <div class="head">
-                <h3 class="font-medium text-2xl my-4">Facebook Inc</h3>
-                <div class="flex space-x-5 items-center">
-                    <h4>Tech Lead Developer</h4>
-                    <p>Mar 2021 - May 2021</p>
+            <div class="experience-item lg:space-x-20 lg:flex lg:justify-between">
+                <div class="head lg:w-7/12">
+                    <h3 class="font-medium text-2xl my-4">Microsoft Azure Cloud</h3>
+                    <div class="flex space-x-5 items-center lg:justify-between">
+                        <h4>Cloud Architect</h4>
+                        <p>Mar 2021 - May 2021</p>
+                    </div>
+                    
                 </div>
-                <h3 class="font-medium text-2xl my-4">Certificate Of Web Training</h3>
-            </div>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing
-                elit. Amet dapibus nibh ut f aucibus nunc, egestas
-                id amet porttitor. Pulvinar q uisque sed amet, nulla
-                nunc. E leifend sodales posuere f usce t empus
-                etiam et pellentesque. Molestie r isus enim neque
-                eget dui.
-            </p>
-        </div>
-        <hr>
-
-        <div class="experience-item">
-            <div class="head">
-                <h3 class="font-medium text-2xl my-4">Volkeno / Bakeli</h3>
-                <div class="flex space-x-5 items-center">
-                    <h4>Junior Developer</h4>
-                    <p>Mar 2021 - May 2021</p>
+                <div>
+                    <h3 class="font-medium text-2xl my-4">Certificate Of Web Training</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Amet dapibus nibh ut f aucibus nunc, egestas
+                        id amet porttitor. Pulvinar q uisque sed amet, nulla
+                        nunc. E leifend sodales posuere f usce t empus
+                        etiam et pellentesque. Molestie r isus enim neque
+                        eget dui.
+                    </p>
                 </div>
-                <h3 class="font-medium text-2xl my-4">Certificate Of Web Training</h3>
             </div>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing
-                elit. Amet dapibus nibh ut f aucibus nunc, egestas
-                id amet porttitor. Pulvinar q uisque sed amet, nulla
-                nunc. E leifend sodales posuere f usce t empus
-                etiam et pellentesque. Molestie r isus enim neque
-                eget dui.
-            </p>
-        </div>
-    </div>
-</div>
+            <hr>
 
-<!-- =============================== form =============================== -->
-<div class="formulaire">
-    <div class="formulaire-head p-8">
-        <h2 class="text-4xl font-bold my-5 text-center">Leave us your info</h2>
-    </div>
-
-    <div class="formulaire-body p-8">
-        <form class="space-y-3" action="#">
-            <label class="text-2xl" for="name" class="my-10">Your Full Name (required)</label>
-            <input type="text" name="name" id="name">
-            <label class="text-2xl" for="email">Your Email (required)</label>
-            <input type="email" name="email" id="email">
-            <label class="text-2xl" for="subject">Subject</label>
-            <input type="text" name="subject" id="subject">
-            <label class="text-2xl" for="message">Your messages</label>
-            <textarea name="message" id="message" cols="30" rows="10">
-            </textarea>
-            <div class="my-2">
-                <a class="btn" href="#">SEND MESSAGE</a>
-            </div>
-        </form>
-    </div>
-</div>
-
-
-<!-- =============================== contact information =============================== -->
-<div class="contact-information p-8 text-center">
-    <h2 class="text-4xl font-bold my-5">Conatct Information</h2>
-    <div class="carts space-y-10">
-        <div class="cart-item p-10 bg-white bg-white-100 space-y-4">
-            <i class="mb-10 fa fa-map mx-auto" aria-hidden="true"></i>
-            <div class="cart-item-row flex-between">
-                <p class="key text-2xl font-medium">Country:</p>
-                <p class="value text-xl font-normal">Senegal</p>
-            </div>
-            <div class="cart-item-row flex-between">
-                <p class="key text-2xl font-medium">City:</p>
-                <p class="value text-xl font-normal">Dakar</p>
-            </div>
-            <div class="cart-item-row flex-between">
-                <p class="key text-2xl font-medium">Street:</p>
-                <p class="value text-xl font-normal">Sicap, liberté 2, lib226</p>
-            </div>
-        </div>
-
-        <div class="cart-item p-10 bg-white bg-white-100 space-y-4">
-            <i class="mb-10 fa fa-envelope mx-auto" aria-hidden="true"></i>
-            <div class="cart-item-row flex-between">
-                <p class="key text-2xl font-medium">Email:</p>
-                <p class="value text-xl font-normal">Honorablecon@gmail.com</p>
-            </div>
-            <div class="cart-item-row flex-between">
-                <p class="key text-2xl font-medium">Github:</p>
-                <p class="value text-xl font-normal">@Honorablecon</p>
-            </div>
-            <div class="cart-item-row flex-between">
-                <p class="key text-2xl font-medium">Telegram:</p>
-                <p class="value text-xl font-normal">@Honorablecon</p>
-            </div>
-        </div>
-
-        <div class="cart-item p-10 bg-white bg-white-100 space-y-4">
-            <i class="mb-10 fa fa-server mx-auto" aria-hidden="true"></i>
-            <div class="cart-item-row flex-between">
-                <p class="key text-2xl font-medium">Support Services:</p>
-                <p class="value text-xl font-normal">15369</p>
-            </div>
-            <div class="cart-item-row flex-between">
-                <p class="key text-2xl font-medium">Personal 1:</p>
-                <p class="value text-xl font-normal">+221 78 429 04 67</p>
-            </div>
-            <div class="cart-item-row flex-between">
-                <p class="key text-2xl font-medium">Personal 2:</p>
-                <p class="value text-xl font-normal">+221 78 429 04 67</p>
+            <div class="experience-item lg:space-x-20 lg:flex lg:justify-between">
+                <div class="head lg:w-7/12">
+                    <h3 class="font-medium text-2xl my-4">Microsoft corp</h3>
+                    <div class="flex space-x-5 items-center lg:justify-between">
+                        <h4>Senior Dev</h4>
+                        <p>Mar 2021 - May 2021</p>
+                    </div>
+                    
+                </div>
+                <div>
+                    <h3 class="font-medium text-2xl my-4">Certificate Of Web Training</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Amet dapibus nibh ut f aucibus nunc, egestas
+                        id amet porttitor. Pulvinar q uisque sed amet, nulla
+                        nunc. E leifend sodales posuere f usce t empus
+                        etiam et pellentesque. Molestie r isus enim neque
+                        eget dui.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
 
-</div>
+    <div class="lg:flex lg:items-baseline bg-white lg:w-8/12v mx-auto">
 
-<div class="map-image py-10">
+        <!-- =============================== form =============================== -->
+        <div class="formulaire lg:w-7/12">
+            <div class="formulaire-head p-8">
+                <h2 class="text-4xl font-bold my-5 text-center">Leave us your info</h2>
+            </div>
+
+            <div class="formulaire-body p-8">
+                <form class="space-y-3" action="#">
+                    <label class="text-2xl" for="name" class="my-10">Your Full Name (required)</label>
+                    <input type="text" name="name" id="name">
+                    <label class="text-2xl" for="email">Your Email (required)</label>
+                    <input type="email" name="email" id="email">
+                    <label class="text-2xl" for="subject">Subject</label>
+                    <input type="text" name="subject" id="subject">
+                    <label class="text-2xl" for="message">Your messages</label>
+                    <textarea name="message" id="message" cols="30" rows="10">
+                    </textarea>
+                    <div class="my-2">
+                        <a class="btn" href="#">SEND MESSAGE</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+        <!-- =============================== contact information =============================== -->
+        <div class="contact-information pl-8 text-center lg:w-5/12">
+            <div class="contact-information-head p-8">
+                <h2 class="text-4xl font-bold my-5">Contact Information</h2>
+            </div>
+            <div class="carts space-y-10">
+                <div class="cart-item p-10 bg-white bg-white-100 space-y-4">
+                    <i class="mb-10 fa fa-map mx-auto" aria-hidden="true"></i>
+                    <div class="cart-item-row flex-between">
+                        <p class="key text-2xl font-medium">Country:</p>
+                        <p class="value text-xl font-normal">Senegal</p>
+                    </div>
+                    <div class="cart-item-row flex-between">
+                        <p class="key text-2xl font-medium">City:</p>
+                        <p class="value text-xl font-normal">Dakar</p>
+                    </div>
+                    <div class="cart-item-row flex-between">
+                        <p class="key text-2xl font-medium">Street:</p>
+                        <p class="value text-xl font-normal">Sicap, liberté 2, lib226</p>
+                    </div>
+                </div>
+
+                <div class="cart-item p-10 bg-white bg-white-100 space-y-4">
+                    <i class="mb-10 fa fa-envelope mx-auto" aria-hidden="true"></i>
+                    <div class="cart-item-row flex-between">
+                        <p class="key text-2xl font-medium">Email:</p>
+                        <p class="value text-xl font-normal">Honorablecon@gmail.com</p>
+                    </div>
+                    <div class="cart-item-row flex-between">
+                        <p class="key text-2xl font-medium">Github:</p>
+                        <p class="value text-xl font-normal">@Honorablecon</p>
+                    </div>
+                    <div class="cart-item-row flex-between">
+                        <p class="key text-2xl font-medium">Telegram:</p>
+                        <p class="value text-xl font-normal">@Honorablecon</p>
+                    </div>
+                </div>
+
+                <div class="cart-item p-10 bg-white bg-white-100 space-y-4">
+                    <i class="mb-10 fa fa-server mx-auto" aria-hidden="true"></i>
+                    <div class="cart-item-row flex-between">
+                        <p class="key text-2xl font-medium">Support Services:</p>
+                        <p class="value text-xl font-normal">15369</p>
+                    </div>
+                    <div class="cart-item-row flex-between">
+                        <p class="key text-2xl font-medium">Personal 1:</p>
+                        <p class="value text-xl font-normal">+221 78 429 04 67</p>
+                    </div>
+                    <div class="cart-item-row flex-between">
+                        <p class="key text-2xl font-medium">Personal 2:</p>
+                        <p class="value text-xl font-normal">+221 78 429 04 67</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</main>
+
+<div class="map-image py-10 lg:hidden">
     <img src="../assets/images/map.png" alt="map">
 </div>
 
-<footer class="text-center p-5">
-    <p>2021 All Left Reserved. <span class="font-semibold">HonorableC😂N</span> </p>
+<footer class="text-center font-extrabold text-xl bg-white mt-5 p-5">
+    <p>2021 All Left Reserved. <span class="font-extrabold">HonorableC😂N</span> </p>
 </footer>
 
 </body>

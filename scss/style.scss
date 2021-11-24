@@ -6,6 +6,9 @@ $secondary-color : #767676;
 $bg-right: #FAFAFA;
 $bg-secondary: #F0F0F6;
 
+body{
+    background-color: $bg-secondary;
+}
 hr{
     margin: 25px 0;
 }
@@ -20,8 +23,14 @@ hr{
 *{
     font-family: 'Inter', sans-serif;
 }
+
+main{
+    @media screen and (min-width: 1280px){
+        background-color: red!important;
+        margin-left: 27%;
+    }
+}
 .left-menu{
-    width: 100%;
     .burger{
         i{
             color: $primary-color;
@@ -92,6 +101,26 @@ hr{
 
 }
 
+.main-menu{
+    width: 68%;
+    margin-left: 26% !important;
+    background-image: url('../../assets/images/main-menu-bg.png');
+    .left-col{
+        .btn{
+            font-size: 1.5rem;
+        }
+        p{
+            margin: 25px auto !important;
+        }
+        h1{
+            line-height: 4rem;
+            span{
+                color: $primary-color;
+            }
+        }
+    }
+}
+
 .right-menu{
     background-color: $bg-right;
     .night-mode{
@@ -129,8 +158,14 @@ hr{
 .my-services{
     background-color: $bg-secondary;
     .carts{
-        .cart{
-
+        .cart-item{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 325px !important;
+            width: 500px !important;
+            margin-bottom: 32px;
         }
     }
 }
@@ -201,6 +236,9 @@ hr{
 }
 
 footer{
+    p{
+        letter-spacing: 0.6rem;
+    }
     span{
         color: $primary-color;
     }
