@@ -13,6 +13,8 @@ hr{
     background-color: $primary-color;
     color: #fff;
     padding: 10px 20px;
+    font-weight: 600;
+    font-size: 14px;
 }
 
 *{
@@ -125,22 +127,46 @@ hr{
     }
 }
 
-// .my-services{
-//     background-color: $bg-secondary;
-//     .carts{
-//         .cart{
+.my-services{
+    background-color: $bg-secondary;
+    .carts{
+        .cart{
 
-//         }
-//     }
-// }
+        }
+    }
+}
 
 .education{
+    background-color: $bg-secondary;
+    .education-body{
+        background-color: #fff;
+    }
     .head{
-
         p{
             color: #fff;
             padding: 1px 5px;
             background-color: $primary-color;
         }
+    }
+}
+
+.formulaire{
+    background-color: $bg-secondary;
+    .formulaire-body{
+        background-color: #fff;
+    }
+    label{
+        color: #767676;
+        font-weight: medium;
+    }
+    input, textarea{
+        background-color: $bg-secondary;
+        height: 60px;
+        width: 100%;
+        margin-bottom: 35px !important;
+    }
+    textarea{
+        height: 300px;
+        resize: none;
     }
 }
