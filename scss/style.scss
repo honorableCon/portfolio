@@ -136,9 +136,9 @@ hr{
     }
 }
 
-.education{
+.education, .experience{
     background-color: $bg-secondary;
-    .education-body{
+    .education-body, .experience-body{
         background-color: #fff;
     }
     .head{
@@ -188,5 +188,21 @@ hr{
                 background-color: $primary-color;
             }
         }
+    }
+}
+
+.map-image{
+    background-color: $bg-secondary;
+    img{
+        width: 100%;
+        height: 230px;
+        object-fit: cover;
+    }
+    
+}
+
+footer{
+    span{
+        color: $primary-color;
     }
 }
