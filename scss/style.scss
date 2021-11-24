@@ -21,7 +21,7 @@ hr{
     font-family: 'Inter', sans-serif;
 }
 .left-menu{
-
+    width: 100%;
     .burger{
         i{
             color: $primary-color;
@@ -61,7 +61,6 @@ hr{
         .language, .skill{
             p{
                 color: $secondary-color;
-                background-color: #red;
             }
             .progress{
                 // border: $primary-color 1px solid;
