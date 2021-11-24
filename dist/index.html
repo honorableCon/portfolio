@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="../dist/styles/style.min.css">
     <link rel="stylesheet" href="../dist/styles/utils.min.css">
     <script src="https://kit.fontawesome.com/ea05a76d15.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/yombal-dom@1.0.2/utils.js" crossorigin="anonymous"></script>
+    <script src="main.js" defer></script>
     <title>Baye Dame</title>
 </head>
 <body>
@@ -15,7 +17,7 @@
 
 <!-- =============================== Menu =============================== -->
 
-<div class="containere flex justify-between">
+<div class="flex justify-between">
     <div class="left-menu p-6">
         <div class="burger">
             <i class="fa fa-hamburger" aria-hidden="true"></i>
@@ -159,8 +161,6 @@
 
     </div>
 
-
-
     <div class="right-menu px-8 text-center">
         <div class="night-mode my-10">
             <i class="fa fa-moon" aria-hidden="true"></i>
@@ -203,7 +203,7 @@
 </div>
 
 <!-- =============================== my services =============================== -->
-<div class="containere my-services p-8 text-center">
+<div class="my-services p-8 text-center">
     <h2 class="text-4xl font-bold my-5">My Services</h2>
     <p>
         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
@@ -236,31 +236,239 @@
 </div>
 
 <!-- =============================== Education =============================== -->
-<div class="containere my-services p-8">
-    <h2 class="text-4xl font-bold my-5 text-center">Education</h2>
-    <p class="text-center">
-        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
-        Velitofficia consequat duis enim velit mollit.
-        lorem ipsum
-    </p>
-
-    <div class="head">
-        <h3 class="font-medium text-2xl my-4">Bakeli School Of Tech</h3>
-        <div class="flex space-x-5">
-            <h4>Student</h4>
-            <p>Mar 2021 - May 2021</p>
-        </div>
-        <h3 class="font-medium text-2xl my-4">Certificate Of Web Training</h3>
+<div class="education">
+    <div class="education-head p-8">
+        <h2 class="text-4xl font-bold my-5 text-center">Education</h2>
+        <p class="text-center">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+            Velitofficia consequat duis enim velit mollit.
+            lorem ipsum
+        </p>
     </div>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit. Amet dapibus nibh ut f aucibus nunc, egestas
-        id amet porttitor. Pulvinar q uisque sed amet, nulla
-        nunc. E leifend sodales posuere f usce t empus
-        etiam et pellentesque. Molestie r isus enim neque
-        eget dui.
-    </p>
+
+    <div class="education-body p-8">
+        <div class="education-item">
+            <div class="head">
+                <h3 class="font-medium text-2xl my-4">Bakeli School Of Tech</h3>
+                <div class="flex space-x-5 items-center">
+                    <h4>Student</h4>
+                    <p>Mar 2021 - May 2021</p>
+                </div>
+                <h3 class="font-medium text-2xl my-4">Certificate Of Web Training</h3>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit. Amet dapibus nibh ut f aucibus nunc, egestas
+                id amet porttitor. Pulvinar q uisque sed amet, nulla
+                nunc. E leifend sodales posuere f usce t empus
+                etiam et pellentesque. Molestie r isus enim neque
+                eget dui.
+            </p>
+        </div>
+        <hr>
+
+        <div class="education-item">
+            <div class="head">
+                <h3 class="font-medium text-2xl my-4">University Cheikh Anta Diop</h3>
+                <div class="flex space-x-5 items-center">
+                    <h4>Student</h4>
+                    <p>Mar 2021 - May 2021</p>
+                </div>
+                <h3 class="font-medium text-2xl my-4">Certificate Of Web Training</h3>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit. Amet dapibus nibh ut f aucibus nunc, egestas
+                id amet porttitor. Pulvinar q uisque sed amet, nulla
+                nunc. E leifend sodales posuere f usce t empus
+                etiam et pellentesque. Molestie r isus enim neque
+                eget dui.
+            </p>
+        </div>
+        <hr>
+
+        <div class="education-item">
+            <div class="head">
+                <h3 class="font-medium text-2xl my-4">Simplon Developer Website</h3>
+                <div class="flex space-x-5 items-center">
+                    <h4>Student</h4>
+                    <p>Mar 2021 - May 2021</p>
+                </div>
+                <h3 class="font-medium text-2xl my-4">Certificate Of Web Training</h3>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit. Amet dapibus nibh ut f aucibus nunc, egestas
+                id amet porttitor. Pulvinar q uisque sed amet, nulla
+                nunc. E leifend sodales posuere f usce t empus
+                etiam et pellentesque. Molestie r isus enim neque
+                eget dui.
+            </p>
+        </div>
+    </div>
 </div>
-    
+
+
+<!-- =============================== Expérience =============================== -->
+<div class="experience">
+    <div class="experience-head p-8">
+        <h2 class="text-4xl font-bold my-5 text-center">Experience</h2>
+        <p class="text-center">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+            Velitofficia consequat duis enim velit mollit.
+            lorem ipsum
+        </p>
+    </div>
+
+    <div class="experience-body p-8">
+        <div class="education-item">
+            <div class="head">
+            <h3 class="font-medium text-2xl my-4">Microsoft Coorporation</h3>
+                <div class="flex space-x-5 items-center">
+                    <h4>Senior Developer</h4>
+                    <p>Mar 2021 - May 2021</p>
+                </div>
+                <h3 class="font-medium text-2xl my-4">Certificate Of Web Training</h3>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit. Amet dapibus nibh ut f aucibus nunc, egestas
+                id amet porttitor. Pulvinar q uisque sed amet, nulla
+                nunc. E leifend sodales posuere f usce t empus
+                etiam et pellentesque. Molestie r isus enim neque
+                eget dui.
+            </p>
+        </div>
+        <hr>
+
+        <div class="experience-item">
+            <div class="head">
+                <h3 class="font-medium text-2xl my-4">Facebook Inc</h3>
+                <div class="flex space-x-5 items-center">
+                    <h4>Tech Lead Developer</h4>
+                    <p>Mar 2021 - May 2021</p>
+                </div>
+                <h3 class="font-medium text-2xl my-4">Certificate Of Web Training</h3>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit. Amet dapibus nibh ut f aucibus nunc, egestas
+                id amet porttitor. Pulvinar q uisque sed amet, nulla
+                nunc. E leifend sodales posuere f usce t empus
+                etiam et pellentesque. Molestie r isus enim neque
+                eget dui.
+            </p>
+        </div>
+        <hr>
+
+        <div class="experience-item">
+            <div class="head">
+                <h3 class="font-medium text-2xl my-4">Volkeno / Bakeli</h3>
+                <div class="flex space-x-5 items-center">
+                    <h4>Junior Developer</h4>
+                    <p>Mar 2021 - May 2021</p>
+                </div>
+                <h3 class="font-medium text-2xl my-4">Certificate Of Web Training</h3>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit. Amet dapibus nibh ut f aucibus nunc, egestas
+                id amet porttitor. Pulvinar q uisque sed amet, nulla
+                nunc. E leifend sodales posuere f usce t empus
+                etiam et pellentesque. Molestie r isus enim neque
+                eget dui.
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- =============================== form =============================== -->
+<div class="formulaire">
+    <div class="formulaire-head p-8">
+        <h2 class="text-4xl font-bold my-5 text-center">Leave us your info</h2>
+    </div>
+
+    <div class="formulaire-body p-8">
+        <form class="space-y-3" action="#">
+            <label class="text-2xl" for="name" class="my-10">Your Full Name (required)</label>
+            <input type="text" name="name" id="name">
+            <label class="text-2xl" for="email">Your Email (required)</label>
+            <input type="email" name="email" id="email">
+            <label class="text-2xl" for="subject">Subject</label>
+            <input type="text" name="subject" id="subject">
+            <label class="text-2xl" for="message">Your messages</label>
+            <textarea name="message" id="message" cols="30" rows="10">
+            </textarea>
+            <div class="my-2">
+                <a class="btn" href="#">SEND MESSAGE</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<!-- =============================== contact information =============================== -->
+<div class="contact-information p-8 text-center">
+    <h2 class="text-4xl font-bold my-5">Conatct Information</h2>
+    <div class="carts space-y-10">
+        <div class="cart-item p-10 bg-white bg-white-100 space-y-4">
+            <i class="mb-10 fa fa-map mx-auto" aria-hidden="true"></i>
+            <div class="cart-item-row flex-between">
+                <p class="key text-2xl font-medium">Country:</p>
+                <p class="value text-xl font-normal">Senegal</p>
+            </div>
+            <div class="cart-item-row flex-between">
+                <p class="key text-2xl font-medium">City:</p>
+                <p class="value text-xl font-normal">Dakar</p>
+            </div>
+            <div class="cart-item-row flex-between">
+                <p class="key text-2xl font-medium">Street:</p>
+                <p class="value text-xl font-normal">Sicap, liberté 2, lib226</p>
+            </div>
+        </div>
+
+        <div class="cart-item p-10 bg-white bg-white-100 space-y-4">
+            <i class="mb-10 fa fa-envelope mx-auto" aria-hidden="true"></i>
+            <div class="cart-item-row flex-between">
+                <p class="key text-2xl font-medium">Email:</p>
+                <p class="value text-xl font-normal">Honorablecon@gmail.com</p>
+            </div>
+            <div class="cart-item-row flex-between">
+                <p class="key text-2xl font-medium">Github:</p>
+                <p class="value text-xl font-normal">@Honorablecon</p>
+            </div>
+            <div class="cart-item-row flex-between">
+                <p class="key text-2xl font-medium">Telegram:</p>
+                <p class="value text-xl font-normal">@Honorablecon</p>
+            </div>
+        </div>
+
+        <div class="cart-item p-10 bg-white bg-white-100 space-y-4">
+            <i class="mb-10 fa fa-server mx-auto" aria-hidden="true"></i>
+            <div class="cart-item-row flex-between">
+                <p class="key text-2xl font-medium">Support Services:</p>
+                <p class="value text-xl font-normal">15369</p>
+            </div>
+            <div class="cart-item-row flex-between">
+                <p class="key text-2xl font-medium">Personal 1:</p>
+                <p class="value text-xl font-normal">+221 78 429 04 67</p>
+            </div>
+            <div class="cart-item-row flex-between">
+                <p class="key text-2xl font-medium">Personal 2:</p>
+                <p class="value text-xl font-normal">+221 78 429 04 67</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="map-image py-10">
+    <img src="../assets/images/map.png" alt="map">
+</div>
+
+<footer class="text-center p-5">
+    <p>2021 All Left Reserved. <span class="font-semibold">HonorableC😂N</span> </p>
+</footer>
+
 </body>
 </html>
