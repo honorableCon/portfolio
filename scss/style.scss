@@ -170,3 +170,23 @@ hr{
         resize: none;
     }
 }
+
+.contact-information{
+    background-color: $bg-secondary;
+    .carts{
+        .cart-item{
+            i{
+                width: 55px;
+                height: 55px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                align-self: center;
+                color: #fff;
+                border-radius: 50%;
+                font-size: 1.4rem;
+                background-color: $primary-color;
+            }
+        }
+    }
+}
