@@ -21,7 +21,7 @@ hr{
 }
 
 *{
-    font-family: 'Inter', sans-serif;
+    font-family: 'ubuntu', 'Trebuchet Ms','Inter', sans-serif;
 }
 
 main{
@@ -166,6 +166,7 @@ main{
             height: 325px !important;
             width: 500px !important;
             margin-bottom: 32px;
+            border-radius: 14px;
         }
     }
 }
@@ -174,6 +175,8 @@ main{
     background-color: $bg-secondary;
     .education-body, .experience-body{
         background-color: #fff;
+
+        line-height: 200%;
     }
     .head{
         p{
@@ -209,6 +212,7 @@ main{
     background-color: $bg-secondary;
     .carts{
         .cart-item{
+            border-radius: 14px;
             i{
                 width: 55px;
                 height: 55px;
